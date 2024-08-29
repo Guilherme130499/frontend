@@ -15,6 +15,7 @@ export default function NumeroMaior(props) {
         <p>O numero maior é: {getMaior()} </p>
         <p>Propriedades Recebidas: {props.teste}</p>
         
+        
         </>
     )
 }
