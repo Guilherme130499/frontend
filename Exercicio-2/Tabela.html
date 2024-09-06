@@ -1,58 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabela</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
-<body>
-    <h1 style="text-align: center;">Tabela de Contatos</h1>
 
-    <table class="table table-striped table-bordered">
-        <thead rowspan="2">
-          Nome
-        </thead>
-        <tbody>
-          Contatos 
-          <tr>
-            <td colspan="4">
-              <table class="table mb-0">
-                1
-              </table>
-              <table class="table mb-0">
-                2
-              </table>
-              <table class="table mb-0">
-                3
-              </table>
-              <table class="table mb-0">
-                4
-              </table>
-              <table class="table mb-0">
-                5
-              </table>
-            </td>
-          </tr>
-          Endereço
-        </tbody>
-        
-    </tr>
-    Telefone
-  </tbody>
-</tr>
-Email
-</tbody>
-</tr>
-CEP
-</tbody>
-</tr>
-UF
-</tbody>
-</tr>
-Cidade
-</tbody>
-      </table>
+<body>
+  <h1 style="text-align: center;">Tabela de Contatos</h1>
+
+  <table class="table table-bordered border-warning">
+    <thead>
+      <tr>
+        <th rowspan="2" style="background-color: rgb(199, 59, 59);">Nome</th>
+        <th colspan="2" style="background-color: rgb(199, 59, 59);">Contatos</th>
+        <th colspan="3" style="background-color: rgb(199, 59, 59);">Endereços</th>
+      </tr>
+
+      <tr>
+        <th style="background-color: rgb(199, 59, 59);">
+          Telefone
+        </th>
+        <th style="background-color: rgb(199, 59, 59);">
+          Email
+        </th>
+        <th style="background-color: rgb(199, 59, 59);">CEP</th>
+        <th style="background-color: rgb(199, 59, 59);">UF</th>
+        <th style="background-color: rgb(199, 59, 59);">Cidade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row" style="background-color: rgb(199, 59, 59);">Guilherme</th>
+        <td style="background-color: rgb(199, 59, 59);">(61)912345678</td>
+        <td style="background-color: rgb(199, 59, 59);">Guilherme@gmail.com</td>
+        <td style="background-color: rgb(199, 59, 59);">72000000</td>
+        <td style="background-color: rgb(199, 59, 59);">DF</td>
+        <td style="background-color: rgb(199, 59, 59);">Brasília</td>
+      </tr>
+      <tr>
+        <th scope="row" style="background-color: rgb(199, 59, 59);">Pedro</th>
+        <td style="background-color: rgb(199, 59, 59);">(61)987654321</td>
+        <td style="background-color: rgb(199, 59, 59);">Pedro@gmail.com</td>
+        <td style="background-color: rgb(199, 59, 59);">72222222</td>
+        <td style="background-color: rgb(199, 59, 59);">DF</td>
+        <td style="background-color: rgb(199, 59, 59);">Brasília</td>
+      </tr>
+      <tr>
+        <th scope="row" style="background-color: rgb(199, 59, 59);">Rafael</th>
+        <td colspan="2" style="background-color: rgb(199, 59, 59);">(61)9123654</td>
+        <td style="background-color: rgb(199, 59, 59);">72777777</td>
+        <td style="background-color: rgb(199, 59, 59);">DF</td>
+        <td style="background-color: rgb(199, 59, 59);">Brasília</td>
+      </tr>
+      
+    </tbody>
+  </table>
 
 </body>
 </html>
